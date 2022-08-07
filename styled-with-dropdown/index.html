@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS only, mobile navigation with dropdown</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main-nav.css" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a class="main-nav__logo" href="/">Logo</a>
+
+      <input
+        type="checkbox"
+        class="main-nav__menu-trigger"
+        aria-controls="navigation-menu"
+        aria-label="Toggle navigation menu"
+      />
+
+      <ul class="main-nav__menu" id="navigation-menu">
+        <li><a href="">Recusandae</a></li>
+        <li>
+          <details>
+            <summary>Blanditiis</summary>
+            <ul class="main-nav__dropdown">
+              <li><a href="">Temporibus</a></li>
+              <li><a href="">Nesciunt</a></li>
+              <li><a href="">Nemo</a></li>
+              <li><a href="">Impedit</a></li>
+              <li><a href="">Exercitationem</a></li>
+              <li><a href="">Ipsa quia quod perferendis</a></li>
+              <li><a href="">Consequatur</a></li>
+              <li><a href="">Officiis</a></li>
+              <li><a href="">Ad fugiat pariatur</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="">Quo iste</a></li>
+        <li><a href="">Cupiditate</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

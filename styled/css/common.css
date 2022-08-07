@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 1.125rem;
+
+  background-image: url("../img/beach.jpg");
+  /* Image by Joaquín Enríquez from Pixabay  */
+  /* https://pixabay.com/photos/beach-sea-waves-coast-sand-ocean-4426246/ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
