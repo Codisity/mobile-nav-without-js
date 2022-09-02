@@ -10,3 +10,6 @@ Just better looking pure version.
 
 3. Styled with dropdown - [Demo](https://codisity.github.io/mobile-nav-without-js/styled-with-dropdown/)  
 Additional use of  `HTML` `<details></details>` for creating a dropdown item.
+
+4. Styled tailwind - [Demo](https://codisity.github.io/mobile-nav-without-js/styled-tailwind/)  
+Styled version with [TailwindCSS](https://tailwindcss.com/)
